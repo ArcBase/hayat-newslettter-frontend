@@ -1,0 +1,15 @@
+.filter-form-box{
+    margin-left: auto;
+    margin-right: auto;
+   padding: 20px;
+    
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+}
+
+.filter-form-box-width{
+    width: 400px;
+}

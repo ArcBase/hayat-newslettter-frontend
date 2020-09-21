@@ -1,0 +1,244 @@
+.container{
+  padding: 40px 70px 40px 70px;
+}
+
+.fitter{
+  height: auto;
+  padding : 25px 40px 10px 40px;
+}
+
+.select-button{
+  color: #0e00d1;
+  border: 1px solid #0e00d1;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px ;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 3px;
+  background: color;
+  margin-top: 10px;
+  height: 48px;
+  width: 100%;
+ 
+}
+/* Navbar Components */
+
+.navblock {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .navlist {
+    float: left;
+  }
+  
+  .navlist a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navlist a:hover:not(.active) {
+    background-color: rgb(21, 21, 233);
+    color : white;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  
+  /* Ends Here */
+  
+
+  
+.intro_header{
+  padding-top: 5px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+ padding-right: 0px;
+   font-size: 35px;
+   text-align: left;
+   color: black;
+   font-weight:bold;
+
+}
+
+
+.intro_text{
+   font-size: 16px;
+   color: #8E8E8E(48, 46, 46);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #fff9f9;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.base-card{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 2px 20px 20px 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* Category  Card  */
+.category-box{
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 10px 0px 10px 0px;
+  
+}
+
+.category-box-heading{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 20px 10px 0px 10px;
+  font-weight: bold;
+}
+
+.category-box-text{
+  font-size: 14px;
+  color: #8E8E8E;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+}
+.category-box-link{
+  font-size: 14px;
+  color: rgb(20, 40, 220);
+  text-align: center;
+  padding: 0px 10px 10px 10px;
+}
+
+/* Category  Card  */
+
+
+/* News  Card  */
+.news-box{
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  box-shadow: 1px 1px 1px 1px rgba(26, 26, 26, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin: 10px 0px 10px 0px;
+  
+}
+
+.news-box-heading{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  padding: 15px 10px 10px 10px;
+  font-size: 14px;
+  color: rgb(27, 27, 27);
+}
+
+.news-box-headline{
+  color: rgb(20, 33, 220);
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.news-box-text{
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+}
+.news-box-link{
+  font-size: 14px;
+  color: rgb(20, 40, 220);
+  text-align: left;
+  padding: 0px 10px 10px 10px;
+}
+
+.news-box-actions{
+  font-size: 14px;
+  color: rgb(20, 40, 220);
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  
+}
+/* News  Card */
+.form-container2{
+  display: grid;
+  grid-gap: 20px;
+  margin: 10px 20px 70px 20px;
+  transition: 0.3s;
+  border-radius: 5px;
+  border: 0px solid green;
+  padding: 30px 90px 0px 90px;
+}
+
+.form-box{  
+  margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    box-shadow: 0 0px 0px 0 rgba(0,0,0,0.2);
+}
+
+.form-box-width{
+  width: 500px;
+}
+.form-submit-button{
+  background-color: rgb(14, 177, 36);
+  border-color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  width: 200PX;
+  height: 48px;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  border-radius: 3px;
+}
+
+
+
+
+.content-empty-container{
+  padding:120px
+}
+
+.content-empty-container .content-empty-box{
+  padding:0px 170px 0px 170px;
+}
+
+.content-empty-container .content-empty-box .content-empty-header{
+  font-size: 24px;
+  color: black;
+}

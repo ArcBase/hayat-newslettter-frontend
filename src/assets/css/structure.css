@@ -1,0 +1,102 @@
+
+
+.single-grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns:  repeat(1, 1fr);
+    height: auto;
+    padding: 10px 0px 20px 0px;
+  }
+  
+  .single-grid center{
+   
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+
+ 
+
+.page-grid{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    height: autoj;
+    padding: 5px 0px 20px 0px;
+    
+}
+
+
+
+.page-grid left{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    
+  }
+  
+.page-grid .left h3 {
+    
+    font-size: 30px;
+    font-weight: 500;
+    color:rgb(12, 4, 116);
+    text-align: left;
+    margin-bottom: 20px;
+   
+  
+  }
+  
+.page-grid .left p{
+    font-size: 16px;
+    font-weight: 300;
+    color:rgb(12, 4, 116);
+    text-align: left;
+    margin-bottom: 20px;
+   
+  }
+  
+.page-grid right{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+  
+
+ .page-grid .left .select-button{
+    color: #0e00d1;
+    border: 1px solid #0e00d1;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px ;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 3px;
+    background: color;
+    margin-top: 10px;
+    height: 48px;
+    width: 120px;
+   
+  } 
+
+  .page-grid .left .select-button :hover{
+    color: white;
+    border: 1px solid ;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px ;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 3px;
+    background-color: #0e00d1;
+    margin-top: 10px;
+    height: 48px;
+    width: 120px;
+   
+  }
+
