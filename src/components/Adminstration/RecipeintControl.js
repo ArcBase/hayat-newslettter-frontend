@@ -8,7 +8,7 @@ import SideDash from '../containers/sideNav';
 
 
 
-const host='http://127.0.0.1:8000'
+const host='https://backend-hayat.herokuapp.com'
 
 class Admin_Control extends Component{
     state ={

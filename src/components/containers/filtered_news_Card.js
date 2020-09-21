@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const host='http://127.0.0.1:8000'
+const host='https://backend-hayat.herokuapp.com'
 
 const openNotification = (msg) => {
   notification.open({

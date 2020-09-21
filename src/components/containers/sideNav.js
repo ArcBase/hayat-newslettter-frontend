@@ -4,7 +4,7 @@ import clsx from 'clsx';
 import {MenuItem, MenuList} from '@material-ui/core'
 
 
-const host='http://127.0.0.1:8000'
+const host='https://backend-hayat.herokuapp.com'
 
 export default class SideDash extends React.Component{
     
