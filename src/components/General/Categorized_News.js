@@ -14,7 +14,7 @@ const openNotification = (msg) => {
       },
     });
   }
-const host='https://backend-hayat.herokuapp.com'
+const host=''
 class News_Category_Selected extends Component{
     
     state = {

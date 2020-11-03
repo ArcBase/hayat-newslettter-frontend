@@ -40,7 +40,7 @@ const MainCategory = ['Banking' ,'Business Nigeria' ,'Economy' ,'Politics Nigeri
         'Prosshare','Blueprrint','BusinessAM','Ventures Africa','Forbes Africa'
       ]
 
-const host='https://backend-hayat.herokuapp.com'
+const host='http://127.0.0.1:8000'
  class CampaignCreateOnline extends Component{
     state = {
         newImage:[] ,

@@ -26,7 +26,7 @@ const openNotification = (msg) => {
   }
 
 
-const host='https://backend-hayat.herokuapp.com'
+const host='http://127.0.0.1:8000'
 const previewUrl = host + `/api/preview-mass-mail/`
 class Summary_Mail extends Component{
     state= {
@@ -45,10 +45,10 @@ class Summary_Mail extends Component{
             })
             console.log(this.state.selected_news)
         })
-    }
+    } 
 
     sendMail = async()=>{
-        message.success('4rd')
+        
         await axios.get(host + `/api/send_news/`)
         .then(res =>{
             if (res.status == 200){
@@ -141,7 +141,7 @@ class Summary_Mail extends Component{
                         </button>
                            </a>
 
-                    </li>
+                    </li> 
                 </ul>
                 </nav>
 

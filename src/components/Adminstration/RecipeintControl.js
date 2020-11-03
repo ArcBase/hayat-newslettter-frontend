@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react'
 import Pusher from 'pusher-js';
 import { Link, withRouter } from 'react-router-dom';
@@ -8,7 +9,7 @@ import SideDash from '../containers/sideNav';
 
 
 
-const host='https://backend-hayat.herokuapp.com'
+const host='http://127.0.0.1:8000'
 
 class Admin_Control extends Component{
     state ={

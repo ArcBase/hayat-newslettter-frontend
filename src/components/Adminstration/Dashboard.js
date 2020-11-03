@@ -8,7 +8,7 @@ import { connect } from "react-redux";
 import SideDash from '../containers/sideNav'
 import DashbaordTable from './Tables/Table'
 
-const host='https://backend-hayat.herokuapp.com'
+const host='http://127.0.0.1:8000'
 const openNotification = (msg) => {
     notification.open({
       message: 'Alert!',

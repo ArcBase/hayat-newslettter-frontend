@@ -14,7 +14,7 @@ const SeplaKeywords = ['Seplat' , 'Business' ,'Economy', 'Central Bank of Nigeri
     'Nation Oil Companies' , 
     ]
 
-const host='https://backend-hayat.herokuapp.com' 
+const host='http://127.0.0.1:8000' 
 const getNews = async(item)=>{
     const endpoint =  host + `${item}`
     await axios.get(endpoint)

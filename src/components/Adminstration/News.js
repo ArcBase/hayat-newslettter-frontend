@@ -24,7 +24,7 @@ const openNotification = (msg) => {
   }
 
 
-const host='https://backend-hayat.herokuapp.com'
+const host='http://127.0.0.1:8000'
 
 class NewsUpdate extends Component{
     state = {

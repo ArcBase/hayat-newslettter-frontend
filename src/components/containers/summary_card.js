@@ -3,7 +3,7 @@ import React ,{useState, Component} from 'react';
 import {notification} from 'antd';
 import axios from 'axios';
 
-const host='https://backend-hayat.herokuapp.com'
+const host='http://127.0.0.1:8000'
 
 const openNotification = (msg) => {
   notification.open({
