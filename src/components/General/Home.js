@@ -6,7 +6,7 @@ import { Link, withRouter } from 'react-router-dom';
 
 
 
-const host='http://127.0.0.1:8000'
+const host='https://hayatnews-backend.herokuapp.com'
 class HomePage extends Component{
     state= {
         category : [] ,
